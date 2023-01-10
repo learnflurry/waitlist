@@ -1,7 +1,7 @@
 import { ReactComponent as DesktopSwirl } from "assets/desktop/swirl-desktop-3.svg";
 import { ReactComponent as MobileSwirl } from "assets/mobile/swirl-mobile-4.svg";
 
-export default function Faq() {
+export default function FAQ() {
     return (
         <>
             <h2>FAQs</h2>

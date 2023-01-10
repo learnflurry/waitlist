@@ -3,28 +3,50 @@
 @tailwind utilities;
 
 @layer base {
-    * {
-        @apply font-zen-maru text-nord-black leading-[1.75em];
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    p,
+    a,
+    input,
+    label,
+    button {
+        @apply font-zen-maru leading-[1.75em] tracking-wider text-nord-black;
     }
     h1 {
+        /* 48px */
         @apply text-5xl font-black;
     }
     h2 {
+        /* 36px */
         @apply text-4xl font-black;
     }
     h3 {
+        /* 30px */
         @apply text-3xl font-bold;
     }
     h4 {
+        /* 24px */
         @apply text-2xl font-black;
     }
     h5 {
+        /* 20px */
         @apply text-xl font-bold;
     }
     p {
+        /* 18px */
         @apply text-lg font-medium;
     }
     a {
-        @apply text-lg font-medium;
+        /* 18px */
+        @apply text-lg font-medium hover:text-nord-purple-500;
     }
+}
+
+html,
+body,
+#root {
+    @apply min-w-fit;
 }

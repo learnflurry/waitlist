@@ -3,6 +3,7 @@ import { ReactComponent as DesktopSwirl } from "assets/desktop/footer-swirl-desk
 import { ReactComponent as MobileSwirl } from "assets/mobile/footer-swirl-mobile.svg";
 import Button from "components/Button";
 import TextInput from "components/TextInput";
+import CTA from "./CTA";
 
 export default function Footer() {
     return (
@@ -14,8 +15,7 @@ export default function Footer() {
                 <p>Be the first to know about our release.</p>
             </div>
             <div>
-                <TextInput />
-                <Button />
+                <CTA />
             </div>
             <div>
                 <FlurryLogo />
