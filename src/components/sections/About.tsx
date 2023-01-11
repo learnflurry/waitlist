@@ -53,10 +53,9 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="relative my-32">
-                <DesktopSwirl className="absolute top-1/2 -z-10 w-full -translate-y-1/2 object-fill" />
-                {/* <MobileSwirl /> */}
-                <h5 className="pt-20 text-center">
+            <div className="relative">
+                <DesktopSwirl className="mt-[-30%] mb-[-25%] w-full object-fill" />
+                <h5 className="absolute top-[54%] w-full -translate-y-1/2 text-center">
                     We hope you'll join us on this journey to fluency and enjoy
                     the natural, immersive language learning experience that
                     Flurry offers.
@@ -66,16 +65,18 @@ export default function About() {
     );
 }
 
-type CardProps = {
+type InfoCardProps = {
     title: string;
-    body: string | string[];
+    body: string;
 };
 
-function InfoCard({ title, body }: CardProps) {
+function InfoCard({ title, body }: InfoCardProps) {
     return (
         <div className="aspect-square flex-1 rounded-xl bg-nord-black shadow-lg hover:shadow-xl">
-            <div className="h-full w-full rounded-xl border-2 border-nord-black bg-white p-3 text-center transition-transform hover:-translate-y-2">
-                <h4 className="mb-2">{title}</h4>
+            <div
+                className={`h-full w-full rounded-xl border-2 border-nord-black bg-white py-3 px-7 text-center transition-transform hover:-translate-y-2`}
+            >
+                <h4 className="mb-5">{title}</h4>
                 <p>{body}</p>
             </div>
         </div>
