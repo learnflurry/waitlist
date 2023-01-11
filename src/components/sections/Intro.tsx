@@ -5,12 +5,26 @@ import CTA from "components/CTA";
 import { socials } from "data/socials";
 
 export default function Intro() {
+    const getSocials = () =>
+        socials.map((social, index) => (
+            <a
+                key={social.link + " " + index}
+                href={social.link}
+                className="text-3xl text-nord-dark-grey transition-colors duration-200 ease-in-out hover:text-nord-black"
+            >
+                <social.icon />
+            </a>
+        ));
+
     return (
         <div id="intro" className="min-h-screen">
-            {/* <MobileSwirlTop className="md:hidden object-fill w-full" /> */}
+            {/* <div className="flex h-0 w-full flex-row items-center md:hidden">
+                <MobileSwirlTop className="-z-10 mt-48 w-full object-fill" />
+            </div> */}
+
             <div className="container z-10">
-                <div className="mt-24 w-5/12">
-                    <h1 className="mb-5">Fluency fast.</h1>
+                <div className="mt-12 md:mt-24 md:w-7/12 xl:w-5/12 ">
+                    <h1 className="mb-10 md:mb-5">Fluency fast.</h1>
                     <p className="mb-10">
                         At Flurry, we know that memorization and flashcards will
                         never lead to fluency, so that's why we are building a
@@ -24,21 +38,21 @@ export default function Intro() {
                     <CTA />
                 </div>
             </div>
-            <div className="flex h-32 w-full flex-row items-center">
-                <DesktopSwirl className="-z-10 w-full object-fill" />
+
+            <div className="hidden md:block">
+                <div className="mt-28 flex h-0 w-full flex-row items-center xl:mt-10">
+                    <DesktopSwirl className="-z-10 w-full object-fill" />
+                </div>
+                <div className="container mt-36 flex flex-row justify-end gap-x-5 xl:mt-64">
+                    {getSocials()}
+                </div>
             </div>
-            {/* <MobileSwirlBottom className="md:hidden object-fill w-full" /> */}
-            <div className="container mt-52 flex flex-row justify-end gap-x-5">
-                {socials.map((social, index) => (
-                    <a
-                        key={social.link + " " + index}
-                        href={social.link}
-                        className="text-3xl text-nord-grey transition-colors duration-200 ease-in-out hover:text-nord-black"
-                    >
-                        <social.icon />
-                    </a>
-                ))}
-            </div>
+            {/* <div className="mt-48 flex h-0 w-full flex-row items-center md:hidden">
+                <MobileSwirlBottom className="-z-10 w-full object-fill" />
+                <div className="absolute left-1/2 flex -translate-x-1/2 flex-row gap-x-5">
+                    {getSocials()}
+                </div>
+            </div> */}
         </div>
     );
 }

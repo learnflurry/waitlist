@@ -26,7 +26,7 @@ export default function CTA() {
     };
 
     return (
-        <div className="flex w-full flex-row justify-between gap-x-5">
+        <div className="flex w-full flex-col justify-between gap-5 sm:flex-row">
             <TextInput
                 label="Email"
                 placeholder="Enter an email address"

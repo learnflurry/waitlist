@@ -19,10 +19,22 @@ module.exports = {
                 "2xl": "6rem",
             },
         },
+        // fontSize: {
+        //     sm: "0.8rem",
+        //     base: "1rem",
+        //     md: "1rem",
+        //     lg: "1rem",
+        //     xl: "1rem",
+        //     "2xl": "1rem",
+        //     "3xl": "1rem",
+        //     "4xl": "1rem",
+        //     "5xl": "1rem",
+        // },
         extend: {
             colors: {
                 "nord-black": "#4C566A",
                 "nord-grey": "#ECEFF4",
+                "nord-dark-grey": "#D8DEE9",
                 "nord-white": "#FFFFFF",
                 // "nord-purple": "#B48EAD",
                 "nord-purple": {

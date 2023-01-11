@@ -22,7 +22,7 @@ export default function Header() {
 
     return (
         <nav
-            className={`sticky top-0 w-full backdrop-blur-lg backdrop-filter transition-all duration-300 ease-in-out ${
+            className={`sticky top-0 z-50 w-full backdrop-blur-lg backdrop-filter transition-all duration-300 ease-in-out ${
                 isPaddingLarge ? "py-8" : "py-4 shadow"
             }`}
         >

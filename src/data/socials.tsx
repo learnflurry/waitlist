@@ -3,6 +3,7 @@ import {
     FaFacebook,
     FaGithub,
     FaInstagram,
+    FaPatreon,
     FaTwitter,
     FaYoutube,
 } from "react-icons/fa";
@@ -23,19 +24,23 @@ export const socials: Social[] = [
         icon: FaGithub,
     },
     {
-        link: "https://youtube.com/learnflurry",
+        link: "#https://patreon.com/learnflurry",
+        icon: FaPatreon,
+    },
+    {
+        link: "#https://youtube.com/learnflurry",
         icon: FaYoutube,
     },
     {
-        link: "https://instagram.com/learnflurry",
+        link: "#https://instagram.com/learnflurry",
         icon: FaInstagram,
     },
     {
-        link: "https://twitter.com/learnflurry",
+        link: "#https://twitter.com/learnflurry",
         icon: FaTwitter,
     },
     {
-        link: "https://facebook.com/learnflurry",
+        link: "#https://facebook.com/learnflurry",
         icon: FaFacebook,
     },
 ];
