@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+tmp-assets/AppIcon.png
+tmp-assets/blob.svg
+tmp-assets/circle.svg
+tmp-assets/flurry.svg
+tmp-assets/group.svg
+tmp-assets/outline.svg
+tmp-assets/paint.svg
