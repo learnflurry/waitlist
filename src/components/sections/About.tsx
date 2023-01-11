@@ -10,7 +10,7 @@ import { ReactComponent as MobileFluSmall } from "assets/mobile/about-flu-mobile
 export default function About() {
     return (
         <>
-            <div className="container flex flex-row gap-x-24">
+            <div id="about" className="container flex flex-row gap-x-24">
                 <div className="flex w-[115%] flex-col items-center justify-center">
                     <DesktopFluLarge className="w-fit self-end" />
                     <DesktopFluMedium className="w-fit self-start" />

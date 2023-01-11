@@ -4,7 +4,9 @@ import { ReactComponent as MobileSwirl } from "assets/mobile/swirl-mobile-4.svg"
 export default function FAQ() {
     return (
         <>
-            <h2 className="mb-10 text-center">FAQs</h2>
+            <h2 id="faq" className="mb-10 text-center">
+                FAQs
+            </h2>
             <div className="container flex flex-row gap-x-20 px-52">
                 <QuestionCard
                     title="Why choose Flurry over other apps?"
