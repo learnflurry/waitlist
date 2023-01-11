@@ -1,6 +1,6 @@
-type Props = { onClick: React.MouseEventHandler };
+type Props = { label: string; onClick?: React.MouseEventHandler };
 
-export default function Button({ onClick }: Props) {
+export default function Button({ label, onClick }: Props) {
     return (
         <button
             className={`
@@ -8,10 +8,10 @@ export default function Button({ onClick }: Props) {
                 hover:bg-nord-purple-550
                 focus:outline-2 
                 `}
-            type="button"
+            type="submit"
             onClick={onClick}
         >
-            Join
+            {label}
         </button>
     );
 }
