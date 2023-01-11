@@ -22,7 +22,7 @@ export default function FAQ() {
                     ]}
                 />
             </div>
-            <DesktopSwirl className="-my-[35%] w-full object-fill" />
+            <DesktopSwirl className="mt-[-35%] mb-[-25%] w-full object-fill" />
             {/* <MobileSwirl/> */}
         </>
     );

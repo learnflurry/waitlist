@@ -1,8 +1,8 @@
 export default function Roadmap() {
     return (
-        <>
-            <h2>Roadmap</h2>
-            <p>Temporary awesomeness goes here.</p>
-        </>
+        <div className="container text-center">
+            <h2 className="mb-5">Roadmap</h2>
+            <p>Project roadmap coming soon!</p>
+        </div>
     );
 }
