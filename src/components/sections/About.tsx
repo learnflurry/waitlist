@@ -1,8 +1,10 @@
 import { ReactComponent as DesktopSwirl } from "assets/desktop/swirl-desktop-2.svg";
 import { ReactComponent as MobileSwirl } from "assets/mobile/swirl-mobile-3.svg";
+import { ReactComponent as DesktopFlu } from "assets/desktop/about-flu-desktop.svg";
 import { ReactComponent as DesktopFluLarge } from "assets/desktop/about-flu-desktop-1.svg";
 import { ReactComponent as DesktopFluMedium } from "assets/desktop/about-flu-desktop-2.svg";
 import { ReactComponent as DesktopFluSmall } from "assets/desktop/about-flu-desktop-3.svg";
+import { ReactComponent as MobileFlu } from "assets/mobile/about-flu-mobile.svg";
 import { ReactComponent as MobileFluMedium } from "assets/mobile/about-flu-mobile-1.svg";
 import { ReactComponent as MobileFluLarge } from "assets/mobile/about-flu-mobile-2.svg";
 import { ReactComponent as MobileFluSmall } from "assets/mobile/about-flu-mobile-3.svg";
@@ -10,13 +12,16 @@ import { ReactComponent as MobileFluSmall } from "assets/mobile/about-flu-mobile
 export default function About() {
     return (
         <>
-            <div id="about" className="container flex flex-row gap-x-24">
-                <div className="flex w-[115%] flex-col items-center justify-center">
-                    <DesktopFluLarge className="w-fit self-end" />
-                    <DesktopFluMedium className="w-fit self-start" />
-                    <DesktopFluSmall className="w-fit" />
+            <div
+                id="about"
+                className="container mt-40 flex flex-col justify-between gap-x-12 xl:flex-row"
+            >
+                <div className="mb-10">
+                    <DesktopFlu className="hidden w-80 object-contain xl:block 2xl:w-auto" />
+                    <MobileFlu className="mx-auto object-contain xl:hidden" />
                 </div>
-                <div className="">
+
+                <div>
                     <h2 className="mb-5">About Flurry</h2>
                     <p className="mb-10">
                         Flurry is the product of a team of language enthusiasts
@@ -24,7 +29,7 @@ export default function About() {
                         methods and months testing countless other free apps.
                     </p>
                     <h4 className="mb-5">Here's what we found</h4>
-                    <div className="-mx-4 mb-10 flex flex-row gap-x-8">
+                    <div className="mb-10 flex flex-col gap-8 md:-mx-4 md:flex-row">
                         <InfoCard
                             title="❶"
                             body="Children are language learning experts"
@@ -53,9 +58,8 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="relative">
-                <DesktopSwirl className="mt-[-30%] mb-[-25%] w-full object-fill" />
-                <h5 className="absolute top-[54%] w-full -translate-y-1/2 text-center">
+            <div className="bg-about-desktop bg-cover bg-center bg-no-repeat pt-20 pb-10 sm:bg-about-desktop sm:pt-64 sm:pb-48 2xl:pt-96 2xl:pb-64">
+                <h5 className="container text-center">
                     We hope you'll join us on this journey to fluency and enjoy
                     the natural, immersive language learning experience that
                     Flurry offers.
@@ -72,10 +76,8 @@ type InfoCardProps = {
 
 function InfoCard({ title, body }: InfoCardProps) {
     return (
-        <div className="aspect-square flex-1 rounded-xl bg-nord-black shadow-lg hover:shadow-xl">
-            <div
-                className={`h-full w-full rounded-xl border-2 border-nord-black bg-white py-3 px-7 text-center transition-transform hover:-translate-y-2`}
-            >
+        <div className="flex-1 rounded-xl bg-nord-black shadow-lg transition-shadow hover:shadow-xl md:aspect-square">
+            <div className="h-full min-h-fit w-full min-w-fit rounded-xl border-2 border-nord-black bg-white py-3 px-7 text-center transition-transform hover:-translate-y-2">
                 <h4 className="mb-5">{title}</h4>
                 <p>{body}</p>
             </div>

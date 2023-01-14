@@ -45,6 +45,10 @@ module.exports = {
                     "url('/src/assets/mobile/swirl-mobile-1.svg')",
                 "intro-mobile-bottom":
                     "url('/src/assets/mobile/swirl-mobile-2.svg')",
+
+                "about-desktop":
+                    "url('/src/assets/desktop/swirl-desktop-2.svg')",
+                "about-mobile": "url('/src/assets/mobile/swirl-mobile-3.svg')",
             },
         },
         fontFamily: {
