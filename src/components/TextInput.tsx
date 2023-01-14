@@ -16,7 +16,7 @@ export default function TextInput({ label, placeholder, onTextUpdate }: Props) {
     };
 
     return (
-        <div className="flex w-full flex-row items-baseline overflow-hidden rounded-lg border-2  border-nord-black bg-nord-white px-4 py-2 shadow-lg transition-colors duration-200 ease-in-out focus-within:border-nord-purple-500">
+        <div className="flex w-full flex-row items-baseline overflow-hidden rounded-lg border-2 border-nord-black bg-nord-white px-4 py-2 shadow-lg transition-colors duration-200 ease-in-out focus-within:border-nord-purple-500">
             <input
                 type="text"
                 className="placeholder-nord-gray w-full appearance-none rounded font-bold text-nord-black focus:outline-none"
