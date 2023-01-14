@@ -38,6 +38,14 @@ module.exports = {
                     900: "#241c23",
                 },
             },
+            backgroundImage: {
+                "intro-desktop":
+                    "url('/src/assets/desktop/swirl-desktop-1.svg')",
+                "intro-mobile-top":
+                    "url('/src/assets/mobile/swirl-mobile-1.svg')",
+                "intro-mobile-bottom":
+                    "url('/src/assets/mobile/swirl-mobile-2.svg')",
+            },
         },
         fontFamily: {
             "zen-maru": ["Zen Maru Gothic", "sans-serif"],

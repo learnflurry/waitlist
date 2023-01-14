@@ -48,5 +48,5 @@
 html,
 body,
 #root {
-    @apply min-w-fit;
+    @apply min-w-fit scroll-smooth;
 }
