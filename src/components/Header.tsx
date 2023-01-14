@@ -29,9 +29,9 @@ export default function Header() {
             <div className="container flex flex-row justify-between ">
                 <a href="#intro" className="flex flex-row gap-x-3">
                     <FlurryLogo />
-                    <h3>Flurry</h3>
+                    <h3 className="hidden sm:block">Flurry</h3>
                 </a>
-                <div className="flex flex-row items-center gap-x-16">
+                <div className="flex flex-row items-center gap-x-8 sm:gap-x-16">
                     <a href="#about">About</a>
                     <a href="#faq">FAQ</a>
                     <a href="#roadmap">Roadmap</a>
