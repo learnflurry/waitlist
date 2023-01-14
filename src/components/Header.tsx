@@ -26,7 +26,7 @@ export default function Header() {
                 isPaddingLarge ? "py-8" : "py-4 shadow"
             }`}
         >
-            <div className="container flex flex-row justify-between ">
+            <div className="container flex flex-row justify-between gap-x-4">
                 <a href="#intro" className="flex flex-row gap-x-3">
                     <FlurryLogo />
                     <h3 className="hidden sm:block">Flurry</h3>

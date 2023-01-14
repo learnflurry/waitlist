@@ -13,16 +13,14 @@ export default function Footer() {
     };
     return (
         <>
-            <DesktopSwirl className="mb-[-50%] mt-[-30%] w-full object-fill" />
-            {/* <MobileSwirl /> */}
             <div className="mt-80 bg-nord-grey">
                 <div className="container py-20">
-                    <div className="grid grid-cols-2 grid-rows-[min-content_auto] gap-y-20">
-                        <div>
+                    <div className="grid grid-cols-1 grid-rows-[min-content_auto] gap-y-20 md:grid-cols-2">
+                        <div className="hidden md:block">
                             <h4>Join the waitlist</h4>
                             <p>Be the first to know about our release.</p>
                         </div>
-                        <div className="h-fit">
+                        <div className="hidden h-fit md:block">
                             <CTA />
                         </div>
                         <div>
@@ -33,7 +31,7 @@ export default function Footer() {
                             <p>Reach fluency fast with Flurry.</p>
                         </div>
 
-                        <div className="flex flex-row gap-x-20">
+                        <div className="flex flex-col gap-20 md:flex-row md:gap-5 lg:gap-20">
                             <div className="flex flex-col gap-y-5">
                                 <h5>On this page</h5>
                                 <a href="#intro">Introduction</a>
