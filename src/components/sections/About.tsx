@@ -1,13 +1,5 @@
-import { ReactComponent as DesktopSwirl } from "assets/desktop/swirl-desktop-2.svg";
-import { ReactComponent as MobileSwirl } from "assets/mobile/swirl-mobile-3.svg";
 import { ReactComponent as DesktopFlu } from "assets/desktop/about-flu-desktop.svg";
-import { ReactComponent as DesktopFluLarge } from "assets/desktop/about-flu-desktop-1.svg";
-import { ReactComponent as DesktopFluMedium } from "assets/desktop/about-flu-desktop-2.svg";
-import { ReactComponent as DesktopFluSmall } from "assets/desktop/about-flu-desktop-3.svg";
 import { ReactComponent as MobileFlu } from "assets/mobile/about-flu-mobile.svg";
-import { ReactComponent as MobileFluMedium } from "assets/mobile/about-flu-mobile-1.svg";
-import { ReactComponent as MobileFluLarge } from "assets/mobile/about-flu-mobile-2.svg";
-import { ReactComponent as MobileFluSmall } from "assets/mobile/about-flu-mobile-3.svg";
 
 export default function About() {
     return (

@@ -1,5 +1,5 @@
 import { db } from "api/fire";
-import { collection, doc, setDoc } from "firebase/firestore";
+import { doc, setDoc } from "firebase/firestore";
 import { useState } from "react";
 import Button from "./Button";
 import TextInput from "./TextInput";

@@ -1,8 +1,4 @@
 import { ReactComponent as FlurryLogo } from "assets/flu-small.svg";
-import { ReactComponent as DesktopSwirl } from "assets/desktop/footer-swirl-desktop.svg";
-import { ReactComponent as MobileSwirl } from "assets/mobile/footer-swirl-mobile.svg";
-import Button from "components/Button";
-import TextInput from "components/TextInput";
 import CTA from "./CTA";
 import { socials } from "data/socials";
 
