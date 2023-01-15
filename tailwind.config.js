@@ -52,6 +52,8 @@ module.exports = {
 
                 "faq-desktop": "url('/src/assets/desktop/swirl-desktop-3.svg')",
                 "faq-mobile": "url('/src/assets/mobile/swirl-mobile-4.svg')",
+
+                footer: "url('/src/assets/footer-swirl.svg')",
             },
         },
         fontFamily: {

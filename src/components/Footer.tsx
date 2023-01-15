@@ -7,9 +7,11 @@ export default function Footer() {
         if (link.startsWith("mailto:")) return link.split("mailto:")[1];
         return link.split("://")[1];
     };
+
     return (
         <>
-            <div className="mt-80 bg-nord-grey">
+            <div className="mt-40 -mb-40 h-96 bg-footer bg-cover bg-bottom" />
+            <div className="bg-nord-grey">
                 <div className="container py-20">
                     <div className="grid grid-cols-1 grid-rows-[min-content_auto] gap-y-20 md:grid-cols-2">
                         <div className="hidden md:block">
