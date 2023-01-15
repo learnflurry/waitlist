@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/waitlist/static/css/main.f16d6958.css",
+    "main.js": "/waitlist/static/js/main.a58a026e.js",
+    "static/media/about-flu-desktop.svg": "/waitlist/static/media/about-flu-desktop.f5e25edcc896d2c73ee2d1967c033b8a.svg",
+    "static/media/about-flu-mobile.svg": "/waitlist/static/media/about-flu-mobile.353fba7ae0fa66534bf076fefa38aafd.svg",
+    "static/media/footer-swirl.svg": "/waitlist/static/media/footer-swirl.c28c52c3bfaf7e5890ce.svg",
+    "index.html": "/waitlist/index.html",
+    "static/media/flu-small.svg": "/waitlist/static/media/flu-small.e1ab691a03c32aff58455c6af5cdbf96.svg",
+    "static/media/swirl-mobile-4.svg": "/waitlist/static/media/swirl-mobile-4.2f0e0edbd86582d7c2cc.svg",
+    "static/media/swirl-desktop-2.svg": "/waitlist/static/media/swirl-desktop-2.628b8c45c25e4ca3ff4d.svg",
+    "static/media/swirl-desktop-3.svg": "/waitlist/static/media/swirl-desktop-3.2227b0f8762746c1aeeb.svg",
+    "static/media/swirl-mobile-2.svg": "/waitlist/static/media/swirl-mobile-2.fe3afb4554b056cebc08.svg",
+    "static/media/swirl-desktop-1.svg": "/waitlist/static/media/swirl-desktop-1.73b36d993d9c9120976a.svg",
+    "static/media/swirl-mobile-1.svg": "/waitlist/static/media/swirl-mobile-1.62bf31cdd4e9ae61e6a8.svg",
+    "main.f16d6958.css.map": "/waitlist/static/css/main.f16d6958.css.map",
+    "main.a58a026e.js.map": "/waitlist/static/js/main.a58a026e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f16d6958.css",
+    "static/js/main.a58a026e.js"
+  ]
+}

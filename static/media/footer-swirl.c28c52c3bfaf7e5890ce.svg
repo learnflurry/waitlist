@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="422.05273"
+   height="52.221115"
+   viewBox="0 0 422.05273 52.221115"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="footer-swirl-mobile.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false" />
+  <path
+     id="path2"
+     style="color:#000000;fill:#eceff4;stroke-width:0.552954;stroke-linecap:round"
+     d="M 324.67773,0.01213011 C 300.75817,-0.25869989 275.20857,3.9783401 249.83008,15.2426 205.0901,35.10066 206.2622,23.15632 164.07812,14.68596 152.16286,12.29342 129.39524,7.4842201 101.07422,9.8129101 74.167793,12.02529 42.545986,19.68795 2.5000004e-7,35.61174 V 52.22112 H 422.05273 V 27.11369 C 408.62312,18.97517 393.56709,12.4279 376.6875,7.6390801 360.90011,3.1601701 343.28184,0.22277011 324.67773,0.01213011 Z" />
+</svg>
