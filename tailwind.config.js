@@ -49,6 +49,9 @@ module.exports = {
                 "about-desktop":
                     "url('/src/assets/desktop/swirl-desktop-2.svg')",
                 "about-mobile": "url('/src/assets/mobile/swirl-mobile-3.svg')",
+
+                "faq-desktop": "url('/src/assets/desktop/swirl-desktop-3.svg')",
+                "faq-mobile": "url('/src/assets/mobile/swirl-mobile-4.svg')",
             },
         },
         fontFamily: {

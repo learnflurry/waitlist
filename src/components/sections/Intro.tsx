@@ -1,6 +1,3 @@
-import DesktopSwirl from "assets/desktop/swirl-desktop-1.svg";
-import MobileSwirlTop from "assets/mobile/swirl-mobile-1.svg";
-import MobileSwirlBottom from "assets/mobile/swirl-mobile-2.svg";
 import CTA from "components/CTA";
 import { socials } from "data/socials";
 

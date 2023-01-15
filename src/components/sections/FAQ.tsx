@@ -7,7 +7,7 @@ export default function FAQ() {
             <h2 id="faq" className="mb-10 text-center">
                 FAQs
             </h2>
-            <div className="container flex flex-row gap-x-20 px-52">
+            <div className="container flex flex-col gap-y-10 gap-x-5 lg:flex-row xl:gap-x-20 2xl:px-52">
                 <QuestionCard
                     title="Why choose Flurry over other apps?"
                     body="We're going to lower the barrier to fluency. Other apps encourage short-term memorization. We promote authentic language acquisition."
@@ -24,8 +24,7 @@ export default function FAQ() {
                     ]}
                 />
             </div>
-            <DesktopSwirl className="mt-[-35%] mb-[-25%] w-full object-fill" />
-            {/* <MobileSwirl/> */}
+            <div className="mb-10 h-[40rem] bg-faq-mobile bg-cover bg-center bg-no-repeat md:h-[30rem] md:bg-faq-desktop lg:-mt-64 lg:h-[60rem] 2xl:h-[70rem]" />
         </>
     );
 }
@@ -39,10 +38,8 @@ function QuestionCard({ title, body }: QuestionCardProps) {
     const bodyArray = Array.isArray(body) ? body : [body];
 
     return (
-        <div className="aspect-square flex-1 rounded-xl bg-nord-black shadow-lg hover:shadow-xl">
-            <div
-                className={`h-full w-full rounded-xl border-2 border-nord-black bg-white py-3 px-7 text-left transition-transform hover:-translate-y-2`}
-            >
+        <div className="flex-1 rounded-xl bg-nord-black shadow-lg hover:shadow-xl xl:aspect-square">
+            <div className="h-full min-h-fit w-full min-w-fit rounded-xl border-2 border-nord-black bg-white py-3 px-7 text-left transition-transform hover:-translate-y-2">
                 <h4 className="mb-5">{title}</h4>
                 {bodyArray.map((p, i) => (
                     <p key={i}>{p}</p>
